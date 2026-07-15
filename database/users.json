@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Test User",
+            "username": "testuser",
+            "email": "testuser@example.com",
+            "password": "$2b$12$OhysO.h5ATZOZ/QfVZzP1eBsbexyxol/rtkMM.cFHFuV9KgKqOPLu",
+            "created_at": "2026-07-15T11:47:05.170599",
+            "last_login": "2026-07-15T11:47:05.541919"
+        }
+    ]
+}

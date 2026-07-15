@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+database/*.backup
+.streamlit/
+# Streamlit agent skills (environment-specific symlinks)
+.agents/skills/developing-with-streamlit/
