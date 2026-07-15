@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: smartcampusai
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: APP_NAME
+        value: SmartCampusAI
+      - key: MODEL_NAME
+        value: gpt-4.1
+      - key: SESSION_TIMEOUT_SEC
+        value: 1800
+      - key: API_KEY
+        sync: false
